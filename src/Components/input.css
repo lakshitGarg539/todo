@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* body{
+    background:url("https://images.unsplash.com/photo-1617957718587-60a442884bee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80") no-repeat;
+    background-size: cover;
+} */
+label{
+    max-width: 70vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
+}
+
+.done > label{
+    text-decoration: line-through;
+}
+
+#search{
+    background-color: rgb(220, 241, 207);
+}
+.list-group-item{
+    background-color: rgb(180, 235, 149);
+}
